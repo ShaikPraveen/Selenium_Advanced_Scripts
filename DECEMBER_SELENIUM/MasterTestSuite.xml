@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Master Test Suite">
+<suite-files>
+<suite-file path="E:\Praveen_Automation\TCS_SELENIUM\DECEMBER_SELENIUM\Batching_Testing.xml"></suite-file>
+<suite-file path="E:\Praveen_Automation\TCS_SELENIUM\DECEMBER_SELENIUM\recordingtestng.xml"></suite-file>
+</suite-files> 
+</suite> 
