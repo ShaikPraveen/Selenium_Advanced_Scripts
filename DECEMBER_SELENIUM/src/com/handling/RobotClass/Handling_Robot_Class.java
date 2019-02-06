@@ -19,7 +19,7 @@ public class Handling_Robot_Class
 	{
 		//System.setProperty("webdriver.chrome.driver", "E:\\Praveen_Automation\\Launching_Browsers\\Launching_Browsers_Latest\\New folder\\chromedriver.exe");
 		//WebDriver driver=new ChromeDriver();
-		System.setProperty("webdriver.chrome.driver", "E:\\Praveen_Automation\\Launching_Browsers\\Launching_Browsers_Latest\\New folder\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "E:\\Praveen_Automation\\Launching_Browsers\\Launching_Browsers_Latest\\New folder\\geckodriver.exe");
 		WebDriver driver=new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
@@ -52,8 +52,6 @@ public class Handling_Robot_Class
 		    
 		    robot.keyPress(KeyEvent.VK_ENTER); //Press OK Button
 		    
-		    driver.close();
-		    
+		    driver.close();	    
 	}
-
 }
