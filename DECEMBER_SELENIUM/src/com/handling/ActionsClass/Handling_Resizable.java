@@ -30,5 +30,7 @@ public class Handling_Resizable
 		 
 		 Actions act=new Actions(driver);
 		 act.moveToElement(resizable_element).dragAndDropBy(resizable_element, 50, 50).build().perform();	
+	  
+		
 	}
 }

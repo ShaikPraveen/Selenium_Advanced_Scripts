@@ -25,8 +25,12 @@ public class Handling_BrokenLinks
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
 		
-		driver.get("http://www.newtours.demoaut.com/");
-		Assert.assertEquals(driver.getTitle(), "Welcome: Mercury Tours");
+		//driver.get("http://www.newtours.demoaut.com/");
+		//Assert.assertEquals(driver.getTitle(), "Welcome: Mercury Tours");
+		
+		driver.get("https://www.goibibo.com/");
+		Assert.assertEquals(driver.getTitle(), "Online flight booking, Hotels, Bus &amp; Holiday Packages at Goibibo");
+	   
 		
 		//driver.get("http://www.acegrades.com/");
 		//Assert.assertEquals(driver.getTitle(), "ACEGRADES");

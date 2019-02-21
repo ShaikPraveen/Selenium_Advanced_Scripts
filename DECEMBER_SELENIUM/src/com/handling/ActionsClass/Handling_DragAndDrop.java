@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 
-public class Handling_DranAndDrop
+public class Handling_DragAndDrop
 {
 	public static void main(String[] args)
 	{
